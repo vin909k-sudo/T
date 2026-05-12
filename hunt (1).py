@@ -460,7 +460,7 @@ def get_usernames():
         except:
             pass
 
-with ThreadPoolExecutor(max_workers=100) as executor:
+with ThreadPoolExecutor(max_workers=300) as executor:
     for _ in range(200):
         executor.submit(get_usernames)
 BY@KINGXFRR_BOT
