@@ -1,4 +1,4 @@
-#K1NGXFRR
+
 from datetime import datetime
 import sys
 
